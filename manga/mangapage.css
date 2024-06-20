@@ -1,0 +1,19 @@
+.mangaPageConteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 150px;
+}
+.mangaPageConteiner img{
+    width: 500px;
+    object-fit: cover;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+@media(max-width:800px){
+    .mangaPageConteiner img{
+        width: 300px;
+    }
+}
